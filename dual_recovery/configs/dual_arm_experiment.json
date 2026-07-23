@@ -1,0 +1,27 @@
+{
+  "task": "cooperative_transport",
+  "faults": [
+    "none",
+    "left_contact_loss",
+    "right_contact_loss",
+    "synchronization_delay",
+    "vision_dropout",
+    "dynamic_obstacle"
+  ],
+  "severity_levels": [0.5, 1.0, 1.5],
+  "policies": [
+    "no_recovery",
+    "full"
+  ],
+  "debug_seeds": [7, 17, 27],
+  "paper_seed_start": 1000,
+  "paper_trials_per_cell": 30,
+  "simulation_timeout": 90.0,
+  "wall_timeout": 180.0,
+  "scene_jitter": 0.015,
+  "observation_rate_hz": 10.0,
+  "confirmation_frames": 3,
+  "maximum_recoveries": 3,
+  "confidence_level": 0.95,
+  "tail_risk_alpha": 0.9
+}

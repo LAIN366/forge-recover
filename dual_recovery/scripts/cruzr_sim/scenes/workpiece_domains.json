@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "domains": {
+    "train": {
+      "half_length": [0.15, 0.20],
+      "half_width": [0.025, 0.045],
+      "half_height": [0.030, 0.050],
+      "mass": [0.35, 0.90],
+      "friction": [0.80, 1.60],
+      "position_x": [-1.29, -1.21],
+      "position_y": [0.57, 0.67],
+      "yaw_degrees": [-8.0, 8.0]
+    },
+    "unseen": {
+      "half_length": [0.12, 0.22],
+      "half_width": [0.020, 0.055],
+      "half_height": [0.025, 0.060],
+      "mass": [0.25, 1.10],
+      "friction": [0.45, 1.90],
+      "position_x": [-1.32, -1.18],
+      "position_y": [0.54, 0.70],
+      "yaw_degrees": [-15.0, 15.0]
+    }
+  }
+}

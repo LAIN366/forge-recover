@@ -1,0 +1,5 @@
+path: /home/lain/robosuite_ws/dual_recovery/datasets/workpiece_seg_v1
+train: images/train
+val: images/val
+names:
+  0: workpiece

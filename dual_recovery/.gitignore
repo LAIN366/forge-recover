@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.tar
+robots.zip
+.tools/
+.venv-yolo/
+.pytest_cache/
+tmp/
+runs/
+results/
+models/

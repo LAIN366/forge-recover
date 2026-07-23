@@ -1,0 +1,4 @@
+numpy>=1.24
+mujoco>=3.3
+opencv-python>=4.8
+mujoco-python-viewer>=0.1.4

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "stages": {
+    "dry_run_logging": {"passed": false, "signed_by": "", "evidence": ""},
+    "simulator_replay": {"passed": false, "signed_by": "", "evidence": ""},
+    "motors_off_telemetry": {"passed": false, "signed_by": "", "evidence": ""},
+    "single_arm_free_space": {"passed": false, "signed_by": "", "evidence": ""},
+    "dual_arm_free_space": {"passed": false, "signed_by": "", "evidence": ""},
+    "soft_object_grasp": {"passed": false, "signed_by": "", "evidence": ""},
+    "fault_recovery": {"passed": false, "signed_by": "", "evidence": ""}
+  }
+}

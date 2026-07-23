@@ -1,0 +1,19 @@
+[project]
+name = "cruzr-active-diagnosis"
+version = "0.2.0"
+description = "Active diagnosis and recovery planning for Cruzr S2 manipulation"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+exclude = ["robots", "datasets"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pyright]
+pythonVersion = "3.10"
+include = ["scripts/cruzr_sim", "tests"]
+exclude = ["robots"]
+reportMissingImports = false

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "real_motion_enabled": false,
+  "calibrated": false,
+  "transforms": {
+    "base_to_left_arm": {"translation_m": [0.0, 0.0, 0.0], "quaternion_wxyz": [1.0, 0.0, 0.0, 0.0]},
+    "base_to_right_arm": {"translation_m": [0.0, 0.0, 0.0], "quaternion_wxyz": [1.0, 0.0, 0.0, 0.0]},
+    "base_to_head_camera": {"translation_m": [0.0, 0.0, 0.0], "quaternion_wxyz": [1.0, 0.0, 0.0, 0.0]}
+  },
+  "arms": {
+    "left": {"joint_names": ["REPLACE_ME"], "joint_lower_rad": [-0.1], "joint_upper_rad": [0.1]},
+    "right": {"joint_names": ["REPLACE_ME"], "joint_lower_rad": [-0.1], "joint_upper_rad": [0.1]}
+  },
+  "interfaces": {
+    "joint_telemetry": "REPLACE_WITH_SDK_OR_ROS2_MAPPING",
+    "joint_command": "REPLACE_WITH_SDK_OR_ROS2_MAPPING",
+    "emergency_stop": "REPLACE_WITH_INDEPENDENT_HARDWARE_INPUT",
+    "rgbd_stream": "REPLACE_WITH_CAMERA_MAPPING"
+  }
+}

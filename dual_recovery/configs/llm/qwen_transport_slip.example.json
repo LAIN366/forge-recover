@@ -1,0 +1,4 @@
+{
+  "strategy_ids": ["visual_search_regrasp", "safe_setdown_regrasp"],
+  "rationale": "Restore visual object belief, then prefer the lower-cost feasible regrasp strategy."
+}

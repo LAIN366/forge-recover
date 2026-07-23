@@ -1,0 +1,27 @@
+{
+  "faults": [
+    "none",
+    "slip",
+    "missed_grasp",
+    "target_shift",
+    "contact_noise",
+    "collision_event",
+    "ik_failure",
+    "planning_failure",
+    "sensor_dropout"
+  ],
+  "repeats": 10,
+  "policies": [
+    "no_recovery",
+    "fixed_rule",
+    "diagnosis_only",
+    "active_case",
+    "full"
+  ],
+  "base_seed": 100,
+  "timeout": 130.0,
+  "fault_severity": 1.0,
+  "scene_jitter": 0.04,
+  "diagnosis_rate_hz": 10.0,
+  "maximum_recoveries": 3
+}

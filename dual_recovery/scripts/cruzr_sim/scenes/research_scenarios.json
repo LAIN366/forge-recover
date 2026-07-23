@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenarios": {
+    "none": {"trigger_stage": null, "action": "none"},
+    "left_contact_loss": {"trigger_stage": "cooperative_lift", "action": "disable_left_contact"},
+    "right_contact_loss": {"trigger_stage": "cooperative_lift", "action": "disable_right_contact"},
+    "left_arm_failure": {"trigger_stage": "cooperative_transport", "action": "freeze_left_arm"},
+    "right_arm_failure": {"trigger_stage": "cooperative_transport", "action": "freeze_right_arm"},
+    "synchronization_delay": {"trigger_stage": "cooperative_transport", "action": "delay_arm"},
+    "transport_slip": {"trigger_stage": "cooperative_transport", "action": "release_object"},
+    "vision_occlusion": {"trigger_stage": "cooperative_transport", "action": "mask_vision"},
+    "vision_dropout": {"trigger_stage": "plan_dual_pregrasp", "action": "mask_vision"},
+    "target_pose_shift": {"trigger_stage": "plan_dual_pregrasp", "action": "shift_target"},
+    "sensor_dropout": {"trigger_stage": "cooperative_transport", "action": "invalidate_sensors"},
+    "dynamic_obstacle": {"trigger_stage": "cooperative_transport", "action": "insert_obstacle"}
+  },
+  "severity_levels": [0.5, 1.0, 1.5],
+  "minimum_test_seeds": 30
+}

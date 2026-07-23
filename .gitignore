@@ -1,0 +1,13 @@
+datasets/experiments/
+datasets/**/logs/
+dual_recovery/.tools/
+dual_recovery/.venv-yolo/
+dual_recovery/.git/
+dual_recovery/models/
+dual_recovery/runs/
+dual_recovery/results/
+dual_recovery/tmp/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/*.tar
