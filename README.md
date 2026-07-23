@@ -52,3 +52,14 @@ PYTHONPATH=scripts python3 -m pytest -q tests
 
 训练权重、批量实验日志、统计结果、缓存和本地工具链均由 `.gitignore` 排除；
 仓库只保存可复现实验所需的源码、配置、场景、模型描述和数据集。
+
+## 通用上传工具
+
+仓库提供不修改源目录的通用 GitHub 发布工具，支持上传预览、`.gitignore`、
+自定义排除规则、Git LFS、可选建库、显式强制覆盖和远端 SHA 校验：
+
+```bash
+python3 tools/easy_publish.py /path/to/project owner/repository --dry-run
+```
+
+详细用法见 [tools/README.md](tools/README.md)。
